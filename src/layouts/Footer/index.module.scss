@@ -1,4 +1,23 @@
+.footerArchive {
+  padding: 0.5rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #767781;
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+
+  @media screen and (max-width: 520px) {
+    left: 10px;
+    top: auto;
+    bottom: 10px;
+    padding: 5px;
+    font-size: 10px;
+  }
+}
+
 .footer {
+  position: relative;
   padding: 6rem 6rem 6rem;
   background: #1a1d2e;
   margin: 12rem 0 0;

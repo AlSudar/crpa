@@ -6,6 +6,7 @@ const Footer = () => {
 
   return (
     <footer className={styles.footer}>
+      <div className={styles.footerArchive}>Архив</div>
       <div className={styles.content}>
         <div className={styles.infoBlock}>
           <div className={styles.iconInfo} />
